@@ -1,0 +1,59 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://www.pexels.com/search/fruit/); 
+    background-size: cover; 
+    background-position: center center; 
+    color: white; 
+}
+
+
+header {
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+header h1 {
+    font-family: 'Courier New', Courier, monospace; 
+    font-size: 3em;
+    text-transform: uppercase; 
+    letter-spacing: 2px;
+}
+
+main {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.4); 
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-family: 'Georgia', serif; 
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #FFD700; 
+}
+
+p {
+    font-size: 1.2em;
+    text-align: justify;
+    line-height: 1.8;
+    margin: 0 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+footer p {
+    font-size: 1em;
+}
+

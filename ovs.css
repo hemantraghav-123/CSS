@@ -2,52 +2,76 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color:whitesmoke;
 }
 
-.container {
-    width: 300px;
-    margin: 50px auto;
+header {
+    background-color: orange;
+    color: white;
     padding: 20px;
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-h1 {
     text-align: center;
 }
 
-label {
-    display: block;
-    margin-bottom: 5px;
+nav ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-input[type="text"],
-input[type="email"],
-input[type="password"],
-input[type="file"] {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
 }
 
 button {
-    width: 100%;
-    padding: 10px;
-    background-color: #5cb85c;
+    padding: 10px 20px;
+    background-color: orange;
     color: white;
     border: none;
-    border-radius: 4px;
+    border-radius: 5px;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #4cae4c;
+    background-color:orange;}
+    
+.intro, .features, .call-to-action {
+    padding: 20px;
+    margin: 20px auto;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-p {
+.features ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.call-to-action {
     text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color:orange;
+    color: white;
 }
